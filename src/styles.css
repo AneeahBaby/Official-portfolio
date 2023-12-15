@@ -1,10 +1,14 @@
-body {
-    background-color: darkmagenta;
+:root {
+    --branding-color: bisque;
 }
-h1 {
+
+body {
+    color: azure;
+}
+h1,  h3, h4, h5, h6 {
     font-family: 'Whisper', cursive;
     font-weight: 900px;
-    font-size: 70px;
+    font-size: 98px;
     color: aliceblue;
     text-align: center;
 }
@@ -12,4 +16,29 @@ p {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     text-align: center;
+    margin: 0;
+}
+.hero {
+    background: lightpink;
+    text-align: center;
+    padding:160px 20px;
+}
+.hero p {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-branding {
+    background-color: var(--branding-color);
+    border-radius: 4px;
+    color: burlywood;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+
 }
