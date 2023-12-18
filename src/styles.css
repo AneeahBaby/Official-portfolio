@@ -1,5 +1,6 @@
 :root {
     --branding-color: bisque;
+    --secondary-color: azure;
 }
 
 body {
@@ -14,9 +15,12 @@ h1,  h3, h4, h5, h6 {
 }
 p {
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin: 0;
+    color: var(--branding-color);
+
+
 }
 .hero {
     background: lightpink;
@@ -27,6 +31,7 @@ p {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     font-weight: bold;
+    
 }
 .hero h2 {
     font-family: 'Playfair Display', serif;
@@ -40,5 +45,25 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
-
+}
+h2 {
+    color: rgb(184, 77, 55);
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+}
+.new {
+    font-size: 15px;
+    color:rgb(80, 51, 51)
+}
+.btn-branding-new {
+     background-color: var(--secondary-color);
+    border: 3px solid var(--branding-color);
+     border-radius: 4px;
+    color: burlywood;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 30px;
+    
 }
