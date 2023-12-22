@@ -65,5 +65,28 @@ h2 {
     font-size: 18px;
     line-height: 27px;
     padding: 10px 30px;
+}
+
+.new {
+    font-size: 70px;
+}
+.new2 {
+    font-size: 30px;
+}
+.new3 {
+    font-size: 20px;
+    color: pink;
+    margin: 30px;
+     
+
+}
+.container {
+    margin-top: 60px;
     
+}
+.love {
+    color: skyblue;
+    font-size: 75px;
+    margin-top: 40px;
+    background-color: bisque;
 }
