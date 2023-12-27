@@ -68,10 +68,10 @@ h2 {
 }
 
 .new {
-    font-size: 70px;
+    font-size: 20px;
 }
 .new2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 .new3 {
     font-size: 20px;
@@ -89,4 +89,17 @@ h2 {
     font-size: 75px;
     margin-top: 40px;
     background-color: bisque;
+}
+.new4 {
+    font-size: 80px;
+    color: black;
+}
+.direct {
+    font-style: normal;
+    color: aquamarine;
+    font-size: 30px;
+    color: black;
+}
+.content {
+   margin-left: 200px;
 }
